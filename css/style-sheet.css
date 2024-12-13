@@ -283,7 +283,7 @@ nav[aria-label="breadcrumb"] {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--secondary-color);
+  background: var(--custom-btn-bg-color);
   border-color: transparent;
 }
 
