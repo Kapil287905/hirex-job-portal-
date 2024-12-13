@@ -12,8 +12,11 @@
         <!-- CSS FILES -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
         <link href="css/style-sheet.css" rel="stylesheet">
-        <link href="css/all.min.css" rel="stylesheet" type="text/css">        
+        <link href="css/all.min.css" rel="stylesheet" type="text/css">
+                
     </head>
     
     <body id="top">
@@ -1246,7 +1249,7 @@
                     <div class="row">
 
                         <div class="col-lg-4 col-12 d-flex align-items-center">
-                            <p class="copyright-text">Copyright © Hirex Job 2048</p>
+                            <p class="copyright-text">Copyright © Hirex Job <span id="year"></span></p>
 
                             <ul class="footer-menu d-flex">
                                 <li class="footer-menu-item"><a href="#" class="footer-menu-link">Privacy Policy</a></li>
@@ -1286,6 +1289,19 @@
             </div>
         </footer>
 
-        
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+        <script> 
+            function getCurrentYear() {
+                return new Date().getFullYear();
+            }
+
+            // Set the function result in the HTML
+            document.getElementById('year').textContent = getCurrentYear(); 
+        </script>         
     </body>
 </html>

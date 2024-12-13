@@ -423,10 +423,18 @@ nav[aria-label="breadcrumb"] {
 /*---------------------------------------
   NAVIGATION              
 -----------------------------------------*/
+main{
+  margin-top: 100px;
+}
+
 .navbar {
   background: var(--white-color);
   padding-top: 15px;
   padding-bottom: 15px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
 }
 
 .navbar-brand {
